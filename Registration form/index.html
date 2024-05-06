@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1 class="heading"><center>Registration form</center></h1>
+    <h2 class="sub-heading"><center>!!!!!!Welcome Enthusiasts!!!!!!</center></h2>
+    <h4 class="motive"><center>Let's embark the journey of learning about web development!Feel free to provide your details..</center></h4>
+    <script>
+      function showAlert(){
+        alert('Hurray you have got enrolled in this course');
+      }
+    </script>
+      <form>
+        <div class="container">
+          <div class="glass-morphism">
+            <h2 class="Third">Select your opinion</h2>
+            <label for="options"><b>Choose a criteria</b></label>
+            <select name="events" name="events">
+            <option value="Techinal">Techinal</option>
+            <option value="Non-Techinal">Non Techinal</option>
+          </select>
+          <div>
+            <label for="Name"><b>Name</b></label>
+            <input type="text" placeholder="Enter your name">
+          </div>
+          <div>
+            <label for="Email"><b>Email</b></label>
+            <input type="text" placeholder="Enter your email">
+          </div>
+          <div>
+            <label for="batch"><b>Choose your batch</b></label>
+            <select id="batch">
+              <option value="online">Online</option>
+              <option value="offline">offline</option>
+            </select>
+          </div>
+          <label for="month"><b>Which Month you are gonna start your course</b></label>
+          <select id="month">
+          <option value="Jan">January</option>
+          <option value="Feb">Febuary</option>
+          <option value="Mar">March</option>
+          <option value="Apr">April</option>
+          <option value="May">May</option>
+          <option value="Jun">June</option>
+          <option value="July">July</option>
+          <option value="Aug">August</option>
+          <option value="Sep">September</option>
+          <option value="Oct">October</option>
+          <option value="Nov">November</option>
+          <option value="Dec">December</option>
+          </select>
+          <div>
+            <label for="time period"><b>Choose your course duration</b></label>
+              <select id="duration">
+                <option value="6pm to 8pm">6pm to 8pm</option>
+                <option value="10am to 1pm">10am to 1pm</option>
+              </select>
+          </div>
+          <button class="btn" onclick="showAlert()">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

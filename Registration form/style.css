@@ -1,0 +1,40 @@
+body{
+  background:url('bkg.jpeg') no-repeat;
+}
+.heading{
+  font-family: 'Lucida Sans Unicode';
+  font-size: 50px;
+}
+.sub-heading{
+  font-family: Helvetica;
+  color:#C27835;
+}
+.motive{
+  color:#E7CFBB ;
+}
+.Third{
+  color:#5A280C;
+}
+.container{
+  text-align: center;
+}
+.glass-morphism{
+  text-align: center;
+  width:300px;
+  height:350px;
+  background-color: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(20px);
+  border:1px solid rgba(255,255,255,0.18);
+}
+.btn{
+  padding: 10px;
+  color:white;
+  font-size: 16px;
+  cursor: pointer;
+  border:none;
+  background-color: #F7CFB9;
+}
